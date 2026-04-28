@@ -353,7 +353,7 @@ public class Utility
                             }
                             catch (NumberFormatException | StringIndexOutOfBoundsException | ArrayIndexOutOfBoundsException ex)
                             {
-                                System.err.println("> getUnitInfo: failed to parse unit/cultivar row (" + ex + ")");
+                                System.err.println("> getUnitInfo: failed to parse unit information (" + ex + ")");
                             }
                         }
                     }
