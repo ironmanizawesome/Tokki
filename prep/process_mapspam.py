@@ -5,8 +5,8 @@ import csv
 import os
 import re
 
-CSV_DIR = "/home/jawoo/Claude/mapspam-2020/csv"
-OUTPUT_FILE = "/home/jawoo/Claude/mapspam-2020/mapspam2020_USA_wide.csv"
+CSV_DIR = "/home/ironm/codebase/Tokki/prep/data/mapspam-2020/csv"
+OUTPUT_FILE = "/home/ironm/codebase/Tokki/prep/data/mapspam-2020/mapspam2020_USA_wide.csv"
 
 # Shared metadata columns (common across all files, keep from first file)
 SHARED_COLS = ['grid_code', 'x', 'y', 'FIPS0', 'FIPS1', 'FIPS2',

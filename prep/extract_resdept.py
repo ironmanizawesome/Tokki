@@ -19,7 +19,7 @@ import os, csv, json, time, ssl
 import urllib.request, urllib.parse
 
 BASE_DIR  = os.path.dirname(os.path.abspath(__file__))
-MAPSPAM   = os.path.join(BASE_DIR, "mapspam2020_USA_wide.csv")
+MAPSPAM   = os.path.join(BASE_DIR, "data/mapspam-2020/mapspam2020_USA_wide.csv")
 CACHE_DIR = os.path.join(BASE_DIR, "sda_cache")
 OUT_CSV   = os.path.join(BASE_DIR, "rooting_depth_CELL5M.csv")
 

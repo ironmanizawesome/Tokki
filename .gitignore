@@ -1,1 +1,9 @@
 target/
+
+# prep pipeline — external data and runtime artifacts
+prep/data/
+prep/sda_cache/
+prep/rooting_depth_CELL5M.csv
+prep/plant_dates_CELL5M.csv
+prep/US_SOL_CELL5M.csv
+prep/maiz_soyb_25ha_long_*.csv
