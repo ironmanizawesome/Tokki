@@ -7,3 +7,6 @@
 # Include files under input/
 !input/
 !input/**
+# Exclude runtime artifacts
+threads/
+result/

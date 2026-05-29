@@ -1,0 +1,36 @@
+[load] rows=648,180, cells=43,212
+
+[1] 위도밴드(2°)별 평균 수확량 (kg/ha)
+cultivar    LONG  MEDIUM   SHORT  winner     max
+lat_band                                        
+24        1985.0  4835.0  3421.0  MEDIUM  4835.0
+26        3168.0  4871.0  3377.0  MEDIUM  4871.0
+28        2174.0  3513.0  2201.0  MEDIUM  3513.0
+30        2885.0  4226.0  3154.0  MEDIUM  4226.0
+32        3322.0  5071.0  3473.0  MEDIUM  5071.0
+34        2742.0  4430.0  2879.0  MEDIUM  4430.0
+36        3111.0  4977.0  3328.0  MEDIUM  4977.0
+38        4198.0  5908.0  3973.0  MEDIUM  5908.0
+40        4404.0  5703.0  4231.0  MEDIUM  5703.0
+42        5785.0  8014.0  4524.0  MEDIUM  8014.0
+44        3113.0  6281.0  4194.0  MEDIUM  6281.0
+46        2057.0  5213.0  3873.0  MEDIUM  5213.0
+48        1915.0  5678.0  4290.0  MEDIUM  5678.0
+
+[2] 셀별 5년 평균 후 winner 결정
+Winner 셀 수: {'MEDIUM': 38887, 'SHORT': 3884, 'LONG': 441}
+비율: {'MEDIUM': 90.0, 'SHORT': 9.0, 'LONG': 1.0}%
+
+[3] Winner 분포 지도 그리는 중...
+  saved: map_cultivar_winner.png
+
+[4] 품종별 수확량 지도 (3 패널)...
+  saved: map_yield_by_cultivar.png
+
+[5] 위도별 평균 수확량 line chart...
+  saved: yield_by_lat_cultivar.png
+
+[6] 품종별 yield 분포 hist...
+  saved: yield_hist_cultivar.png
+
+[done] outputs: /home/ironm/codebase/Tokki/analysis/out

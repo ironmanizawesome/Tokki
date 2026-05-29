@@ -1,0 +1,100 @@
+column,cde,section,label,description,description_kr
+RUNNO,,DSSAT meta,Run number,Sequential run number assigned by DSSAT,실행 번호 (DSSAT 내부)
+TRNO,,DSSAT meta,Treatment number,Treatment number within experiment,처리(treatment) 번호
+R#,,DSSAT meta,Rotation number,Rotation/sequence component number,윤작(rotation) 번호
+O#,,DSSAT meta,Option number,Treatment option number,처리 옵션 번호
+P#,,DSSAT meta,Plot number,Plot/replicate number,플롯/반복 번호
+CropCode,,DSSAT meta,Crop code,2-letter DSSAT crop code (e.g. MZ=Maize),"작물 코드 (2글자, 예: MZ=옥수수)"
+MODEL,,DSSAT meta,DSSAT model,DSSAT model identifier (e.g. MZCER048),DSSAT 모델 식별자 (예: MZCER048)
+EXNAME,,DSSAT meta,Experiment name,Experiment / scenario file name,실험/시나리오 파일명
+TNAM,TNAM,SUMMARY,Treatment name,Treatment title,처리 이름 (시나리오 식별자)
+CultivarCode,FNAM,SUMMARY,Field name,Field name,품종 코드 (App.java가 CultivarCode로 rename)
+WSTA,WSTA,SUMMARY,Weather station,Weather station,기상 관측소
+WYEAR,WYEAR,SUMMARY,Weather year,Year for weather data (for forecast ensembles),기상 자료 연도 (예보 앙상블용)
+SoilProfileID,,DSSAT meta,Soil profile ID,Soil profile identifier (renamed from SOIL_ID),토양 프로파일 ID (SOIL_ID에서 rename)
+LAT,,DSSAT meta,Latitude (deg),Site latitude in degrees (renamed from LATI),"위도 (도, LATI에서 rename)"
+LONG,LONG,SUMMARY,Longitude o,Longitude (degrees),경도 (도)
+ELEV,ELEV,SUMMARY,Elevation  m,Elevation (m),고도 (m)
+SDAT,SDAT,SUMMARY,Simulation date,Simulation start date (YrDoy),시뮬레이션 시작일 (YrDoy)
+PDAT,PDAT,SUMMARY,Planting date,Planting date (YrDoy),파종일 (YrDoy)
+EDAT,EDAT,SUMMARY,Emergence date,Emergence date (YrDoy),출아일 (YrDoy)
+ADAT,ADAT,SUMMARY,Anthesis date,Anthesis date (YrDoy),개화일 (YrDoy)
+MDAT,MDAT,SUMMARY,Maturity date,Physiological maturity date (YrDoy),생리적 성숙일 (YrDoy)
+HDAT,HDAT,SUMMARY,Harvest date,Harvest date (YRDOY),수확일 (YrDoy)
+HYEAR,HYEAR,SUMMARY,Harvest year,Year at harvest,수확 연도
+DWAP,DWAP,SUMMARY,Sowing wt kg/ha,Planting material weight (kg [dm]/ha),파종 종자량 (kg [건물]/ha)
+CWAM,CWAM,SUMMARY,Biomass kg/ha,Biomass at maturity (total crop minus roots) (kg[dm]/ha,"성숙기 총 바이오매스, 뿌리 제외 (kg [건물]/ha)"
+HWAM,HWAM,SUMMARY,Mat Yield kg/ha,Yield at harvest maturity (kg [dm]/ha),성숙기 수확량 (kg [건물]/ha) — 1차 작황 지표
+HWAH,HWAH,SUMMARY,Harvested yield,Harvested yield (kg [dm]/ha),실제 수확된 수확량 (kg [건물]/ha)
+BWAH,BWAH,SUMMARY,Byproduct kg/ha,By-product removed during harvest (kg [dm]/ha),수확 시 제거된 부산물(짚 등) (kg [건물]/ha)
+PWAM,PWAM,SUMMARY,Pod/Ear w kg/ha,Pod/Ear/Panicle weight at maturity (kg [dm]/ha),성숙기 꼬투리/이삭/이삭축 무게 (kg [건물]/ha)
+HWUM,HWUM,SUMMARY,Weight g/unit,Unit wt at maturity (g [dm]/unit),단위당 무게 (g [건물]/단위)
+H#AM,H#AM,SUMMARY,Number #/m2,Number at maturity (no/m2),성숙기 단위면적당 개체수 (개/m²)
+H#UM,H#UM,SUMMARY,Number #/unit,Number at maturity (no/unit),성숙기 단위당 개체수 (개/단위)
+HIAM,HIAM,SUMMARY,Harvest index,Harvest index at maturity,"수확지수 (HI, 곡립/총 바이오매스)"
+LAIX,LAIX,SUMMARY,LAI maximum,"Leaf area index, maximum",최대 엽면적지수 (LAI)
+EYLDH,EYLDH,SUMMARY,Eco. Yld t/ha,Economic Yield (ton/ha),경제적 수확량 (t/ha)
+FCWAM,FCWAM,SUMMARY,Fr tops wt,Fresh tops weight at maturity (kg/ha),성숙기 지상부 생체중 (kg/ha)
+FHWAM,FHWAM,SUMMARY,Fresh harvest,Harvest product fresh wt at maturity (kg/ha),성숙기 수확물 생체중 (kg/ha)
+HWAHF,HWAHF,SUMMARY,Fresh yield,Harvested yield (fresh weight) (kg/ha),수확 생체중 수확량 (kg/ha)
+FBWAH,FBWAH,SUMMARY,Fr. byproduct,By-product removed during harvest fresh wt (kg/ha),수확 시 제거된 부산물 생체중 (kg/ha)
+FPWAM,FPWAM,SUMMARY,FreshPodWt k/h,Fresh pod (ear) weight at maturity (kg/ha),성숙기 꼬투리/이삭 생체중 (kg/ha)
+IR#M,IR#M,SUMMARY,Irrig apps #,Irrigation applications (no),관개 횟수
+IRCM,IRCM,SUMMARY,Irrig mm,Season applied irrigation (includes losses) (mm),"시즌 관개량 (mm, 손실 포함)"
+PRCM,PRCM,SUMMARY,Precip mm,"Total season precipitation (mm), simulation - harvest","시즌 강수량 (mm, 시뮬레이션~수확)"
+ETCM,ETCM,SUMMARY,ET total mm,"Total season evapotranspiration, simulation-harvest (mm","시즌 증발산량 (mm, 시뮬레이션~수확)"
+EPCM,EPCM,SUMMARY,EP total mm,Total season transpiration (mm),시즌 식물 증산량 (mm)
+ESCM,ESCM,SUMMARY,ES total mm,Total season soil evaporation (mm),시즌 토양 증발량 (mm)
+ROCM,ROCM,SUMMARY,Runoff mm,Season surface runoff (mm),시즌 지표 유출량 (mm)
+DRCM,DRCM,SUMMARY,Drainage mm,Season water drainage (mm),시즌 침투/배수량 (mm)
+SWXM,SWXM,SUMMARY,Extr water mm,Extractable water at maturity (mm),성숙기 토양 가용수분 (mm)
+NI#M,NI#M,SUMMARY,N application #,N applications (no),질소 시비 횟수
+NICM,NICM,SUMMARY,Tot N app kg/ha,Inorganic N applied (kg [N]/ha),무기질 N 시비 총량 (kg N/ha)
+NFXM,NFXM,SUMMARY,N fixed kg/h,N fixed during season (kg/ha),시즌 N 고정량 (kg N/ha)
+NUCM,NUCM,SUMMARY,N uptake kg/ha,N uptake during season (kg [N]/ha),시즌 N 흡수량 (kg N/ha)
+NLCM,NLCM,SUMMARY,N leached kg/ha,N leached during season (kg [N]/ha),시즌 N 용탈량 (kg N/ha)
+NIAM,NIAM,SUMMARY,Soil N kg/ha,Inorganic N at maturity (kg [N]/ha),성숙기 토양 무기 N (kg N/ha)
+NMINC,NMINC,SUMMARY,Net N mineraliz,Cumulative seasonal net N mineralization (kg[N]/ha),시즌 누적 순 N 무기화량 (kg N/ha)
+CNAM,CNAM,SUMMARY,Tops N kg/ha,Tops N at maturity (kg/ha),성숙기 지상부 N 함량 (kg N/ha)
+GNAM,GNAM,SUMMARY,Grain N kg/ha,Grain N at maturity (kg/ha),성숙기 곡립 N 함량 (kg N/ha)
+N2OEM,N2OEM,SUMMARY,Cum N2O emitted,Cumulative N2O emissions at maturity (kg[N]/ha),성숙기 누적 N₂O 배출량 (kg N/ha)
+PI#M,PI#M,SUMMARY,P application #,Number of P applications (no),인(P) 시비 횟수
+PICM,PICM,SUMMARY,P applied kg/ha,Inorganic P applied (kg/ha),무기질 P 시비 총량 (kg P/ha)
+PUPC,PUPC,SUMMARY,P uptake kg/ha,Seasonal cumulative P uptake (kg[P]/ha),시즌 누적 P 흡수량 (kg P/ha)
+SPAM,SPAM,SUMMARY,Soil P kg/ha,Soil P at maturity (kg/ha),성숙기 토양 P (kg P/ha)
+KI#M,KI#M,SUMMARY,K application #,Number of K applications (no),칼륨(K) 시비 횟수
+KICM,KICM,SUMMARY,K applied kg/ha,Inorganic K applied (kg/ha),무기질 K 시비 총량 (kg K/ha)
+KUPC,KUPC,SUMMARY,K uptake kg/ha,Seasonal cumulative K uptake (kg[K]/ha),시즌 누적 K 흡수량 (kg K/ha)
+SKAM,SKAM,SUMMARY,Soil K kg/ha,Soil K at maturity (kg/ha),성숙기 토양 K (kg K/ha)
+RECM,RECM,SUMMARY,Residue kg/ha,Residue applied (kg/ha),잔류물 시용량 (kg/ha)
+ONTAM,ONTAM,SUMMARY,Tot Org N kg/ha,"Total Organic N at maturity, soil and surface (kg/ha)","성숙기 총 유기 N (토양+표면, kg N/ha)"
+ONAM,ONAM,SUMMARY,Organic N kg/ha,Organic soil N at maturity (kg/ha),성숙기 토양 유기 N (kg N/ha)
+OPTAM,OPTAM,SUMMARY,Tot Org P kg/ha,"Total Organic P at maturity, soil and surface (kg/ha)","성숙기 총 유기 P (토양+표면, kg P/ha)"
+OPAM,OPAM,SUMMARY,Organic P kg/ha,Organic soil P at maturity (kg/ha),성숙기 토양 유기 P (kg P/ha)
+OCTAM,OCTAM,SUMMARY,Tot Org C kg/ha,"Total Organic C at maturity, soil and surface (kg/ha)","성숙기 총 유기 C (토양+표면, kg C/ha)"
+OCAM,OCAM,SUMMARY,Organic C kg/ha,Organic soil C at maturity (kg/ha),성숙기 토양 유기 C (kg C/ha)
+CO2EM,CO2EM,SUMMARY,CO2emi net kg/d,Cumulative net CO2 emissions kg[C]/ha,누적 순 CO₂ 배출량 (kg C/ha)
+CH4EM,CH4EM,SUMMARY,Cum CH4 emitted,Cumulative methane emitted at maturity (kg[C]/ha),성숙기 누적 메탄 배출량 (kg C/ha)
+DMPPM,DMPPM,SUMMARY,DM-Rain Prod,Dry matter-rainfall productivity (kg[DM]/ha/mm[rain]),강수당 건물생산성 (kg DM/ha/mm rain)
+DMPEM,DMPEM,SUMMARY,DM-ET Prod,Dry matter-ET productivity (kg[DM]/ha/mm[ET]),증발산당 건물생산성 (kg DM/ha/mm ET)
+DMPTM,DMPTM,SUMMARY,DM-Transp Prod,Dry matter-transp. productivity (kg[DM]/ha/mm[EP]),증산당 건물생산성 (kg DM/ha/mm EP)
+DMPIM,DMPIM,SUMMARY,DM-Irrig Prod,Dry matter-irrigation productivity (kg[DM]/ha/mm[irrig],관개당 건물생산성 (kg DM/ha/mm irrig)
+YPPM,YPPM,SUMMARY,Yd-Rain Prod,Yield-rainfall productivity (kg[yield]/ha/mm[rain]),강수당 수확량 생산성 (kg yield/ha/mm rain)
+YPEM,YPEM,SUMMARY,Yd-ET Prod,Yield-ET productivity (kg[yield]/ha/mm[ET]),증발산당 수확량 생산성 (kg yield/ha/mm ET)
+YPTM,YPTM,SUMMARY,Yd-EP Prod,Yield-transpiration productivity (kg[yield]/ha/mm[EP]),증산당 수확량 생산성 (kg yield/ha/mm EP)
+YPIM,YPIM,SUMMARY,Yd-Irrig Prod,Yield-irrigation productivity (kg[yield]/ha/mm[irrig]),관개당 수확량 생산성 (kg yield/ha/mm irrig)
+DPNAM,DPNAM,SUMMARY,DM-N fert Prod,Dry matter-N fertilizer productivity (kg[DM]/kg[N fert],N 비료당 건물생산성 (kg DM/kg N 시비)
+DPNUM,DPNUM,SUMMARY,DM-N upt Prod,Dry matter-N uptake productivity (kg[DM]/kg[N uptake],N 흡수당 건물생산성 (kg DM/kg N 흡수)
+YPNAM,YPNAM,SUMMARY,Yd-N fert Prod,Yield-N fertilizer productivity (kg[yield]/kg[N fert],N 비료당 수확량 생산성 (kg yield/kg N 시비)
+YPNUM,YPNUM,SUMMARY,Yd-N upt Prod,Yield-N uptake productivity (kg[yield]/kg[N uptake],N 흡수당 수확량 생산성 (kg yield/kg N 흡수)
+NDCH,NDCH,SUMMARY,Days to harvest,Number of days from planting to harvest (d),파종~수확 일수 (일)
+TMAXA,TMAXA,SUMMARY,Maximum temp oC,"Avg maximum air temperature, planting to harvest (oC)","생육기 평균 최고기온 (°C, 파종~수확)"
+TMINA,TMINA,SUMMARY,Minimum temp oC,"Avg minimum air temperature, planting to harvest (oC)","생육기 평균 최저기온 (°C, 파종~수확)"
+SRADA,SRADA,SUMMARY,Avg solar rad,"Average solar radiation (MJ/m2/d), planting - harvest","생육기 평균 일사량 (MJ/m²/d, 파종~수확)"
+DAYLA,DAYLA,SUMMARY,Avg day (hr),"Average daylength (hr/d), planting to harvest","생육기 평균 일장 (hr/d, 파종~수확)"
+CO2A,CO2A,SUMMARY,Avg CO2 (ppm),"Average atmospheric CO2 (ppm), planting to harvest","생육기 평균 대기 CO₂ (ppm, 파종~수확)"
+PRCP,PRCP,SUMMARY,"Precip, plant","Total season precipitation (mm), planting to harvest",파종~수확 강수량 (mm)
+ETCP,ETCP,SUMMARY,ET plant seas,"Total evapotranspiration, planting to harvest (mm)",파종~수확 증발산량 (mm)
+ESCP,ESCP,SUMMARY,ES plant seas,"Total soil evaporation, planting to harvest (mm)",파종~수확 토양 증발량 (mm)
+EPCP,EPCP,SUMMARY,EP plant seas,"Total transpiration, planting to harvest (mm)",파종~수확 식물 증산량 (mm)
+CropCodeST,CRST,SUMMARY,Sim Status,End of season crop status,시즌 종료 시 작물 상태 코드 (성숙/실패 등)
